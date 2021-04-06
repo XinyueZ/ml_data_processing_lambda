@@ -10,6 +10,7 @@ from tensorflow.python.keras.utils.data_utils import get_file
 # Default download is /Users/[Username]/.keras/
 # Default cache datasets is /Users/[Username]/.keras/datasets/
 # Otherwise datasets will be put under working directory.
+# If "{R_PATH}/" is not provided, the  "/tmp/.keras/datasets" is the place to save downloaded file.
 R_PATH = os.getcwd()  # os.getcwd() "/tmp/.keras"
 
 
